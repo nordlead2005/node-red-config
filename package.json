@@ -1,0 +1,16 @@
+{
+    "name": "node-red-project",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "dependencies": {
+        "node-red-contrib-bigtimer": "~1.8.0",
+        "node-red-contrib-fs": "~1.0.1",
+        "node-red-contrib-github": "~0.1.5",
+        "node-red-contrib-home-assistant": "~0.2.0",
+        "node-red-contrib-repeat": "0.0.27",
+        "node-red-contrib-stoptimer": "0.0.7",
+        "node-red-contrib-throttle": "~0.1.6",
+        "node-red-contrib-time-range-switch": "~0.5.1",
+        "node-red-contrib-traffic": "~0.2.1"
+    }
+}
