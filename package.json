@@ -13,6 +13,7 @@
         "node-red-contrib-throttle": "~0.1.6",
         "node-red-contrib-time-range-switch": "~0.5.1",
         "node-red-contrib-traffic": "~0.2.1",
-        "node-red-node-snmp": "0.0.18"
+        "node-red-node-snmp": "0.0.18",
+        "node-red-node-sqlite": "~0.1.2"
     }
 }
