@@ -198,6 +198,7 @@ module.exports = {
     //    context.global.os
 
     functionGlobalContext: {
+	require:require
         // os:require('os'),
         // octalbonescript:require('octalbonescript'),
         // jfive:require("johnny-five"),
@@ -208,7 +209,7 @@ module.exports = {
     // palette. If a node's category is not in the list, the category will get
     // added to the end of the palette.
     // If not set, the following default order is used:
-    //paletteCategories: ['subflows', 'input', 'output', 'function', 'social', 'mobile', 'storage', 'analysis', 'advanced'],
+    paletteCategories: ['input', 'output', 'function', 'social', 'mobile', 'storage', 'analysis', 'advanced'],
 
     // Configure the logging output
     logging: {
@@ -222,7 +223,7 @@ module.exports = {
             // debug - record information which is more verbose than info + info + warn + error + fatal errors
             // trace - record very detailed logging + debug + info + warn + error + fatal errors
             // off - turn off all logging (doesn't affect metrics or audit)
-            level: "fatal",
+            level: "error",
             // Whether or not to include metric events in the log output
             metrics: false,
             // Whether or not to include audit events in the log output
