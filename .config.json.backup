@@ -378,7 +378,7 @@
   },
   "node-red-node-twitter": {
    "name": "node-red-node-twitter",
-   "version": "1.0.1",
+   "version": "1.1.6",
    "local": true,
    "nodes": {
     "twitter": {
@@ -393,12 +393,11 @@
      "module": "node-red-node-twitter",
      "file": "/data/node_modules/node-red-node-twitter/27-twitter.js"
     }
-   },
-   "pending_version": "1.1.6"
+   }
   },
   "node-red-contrib-bigtimer": {
    "name": "node-red-contrib-bigtimer",
-   "version": "1.8.0",
+   "version": "2.3.1",
    "local": true,
    "nodes": {
     "bigtimer": {
@@ -411,8 +410,7 @@
      "module": "node-red-contrib-bigtimer",
      "file": "/data/node_modules/node-red-contrib-bigtimer/bigtimer.js"
     }
-   },
-   "pending_version": "2.3.1"
+   }
   },
   "node-red-contrib-comfort": {
    "name": "node-red-contrib-comfort",
@@ -433,7 +431,7 @@
   },
   "node-red-contrib-fs": {
    "name": "node-red-contrib-fs",
-   "version": "1.0.1",
+   "version": "1.3.2",
    "local": true,
    "nodes": {
     "File Lister": {
@@ -446,8 +444,7 @@
      "module": "node-red-contrib-fs",
      "file": "/data/node_modules/node-red-contrib-fs/fs/fs-file-lister.js"
     }
-   },
-   "pending_version": "1.3.2"
+   }
   },
   "node-red-contrib-github": {
    "name": "node-red-contrib-github",
@@ -470,7 +467,7 @@
   },
   "node-red-contrib-influxdb": {
    "name": "node-red-contrib-influxdb",
-   "version": "0.2.1",
+   "version": "0.4.0",
    "local": true,
    "nodes": {
     "influxdb": {
@@ -486,8 +483,7 @@
      "module": "node-red-contrib-influxdb",
      "file": "/data/node_modules/node-red-contrib-influxdb/influxdb.js"
     }
-   },
-   "pending_version": "0.4.0"
+   }
   },
   "node-red-contrib-repeat": {
    "name": "node-red-contrib-repeat",
@@ -542,7 +538,7 @@
   },
   "node-red-contrib-time-range-switch": {
    "name": "node-red-contrib-time-range-switch",
-   "version": "0.5.1",
+   "version": "1.0.0",
    "local": true,
    "nodes": {
     "time-range-switch": {
@@ -555,8 +551,7 @@
      "module": "node-red-contrib-time-range-switch",
      "file": "/data/node_modules/node-red-contrib-time-range-switch/index.js"
     }
-   },
-   "pending_version": "1.0.0"
+   }
   },
   "node-red-contrib-traffic": {
    "name": "node-red-contrib-traffic",
@@ -577,7 +572,7 @@
   },
   "node-red-dashboard": {
    "name": "node-red-dashboard",
-   "version": "2.9.8",
+   "version": "2.20.0",
    "local": true,
    "nodes": {
     "ui_base": {
@@ -779,13 +774,22 @@
      "local": true,
      "module": "node-red-dashboard",
      "file": "/data/node_modules/node-red-dashboard/nodes/ui_group.js"
+    },
+    "ui_spacer": {
+     "name": "ui_spacer",
+     "types": [
+      "ui_spacer"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-dashboard",
+     "file": "/data/node_modules/node-red-dashboard/nodes/ui_spacer.js"
     }
-   },
-   "pending_version": "2.20.0"
+   }
   },
   "node-red-node-snmp": {
    "name": "node-red-node-snmp",
-   "version": "0.0.18",
+   "version": "0.0.24",
    "local": true,
    "nodes": {
     "snmp": {
@@ -802,12 +806,11 @@
      "module": "node-red-node-snmp",
      "file": "/data/node_modules/node-red-node-snmp/snmp.js"
     }
-   },
-   "pending_version": "0.0.24"
+   }
   },
   "node-red-node-sqlite": {
    "name": "node-red-node-sqlite",
-   "version": "0.2.3",
+   "version": "0.4.3",
    "local": true,
    "nodes": {
     "sqlite": {
@@ -821,8 +824,7 @@
      "module": "node-red-node-sqlite",
      "file": "/data/node_modules/node-red-node-sqlite/sqlite.js"
     }
-   },
-   "pending_version": "0.4.3"
+   }
   },
   "node-red-contrib-alexa-remote": {
    "name": "node-red-contrib-alexa-remote",
@@ -892,7 +894,7 @@
   },
   "node-red-contrib-home-assistant-websocket": {
    "name": "node-red-contrib-home-assistant-websocket",
-   "version": "0.10.2",
+   "version": "0.22.2",
    "local": true,
    "nodes": {
     "server": {
@@ -945,6 +947,16 @@
      "module": "node-red-contrib-home-assistant-websocket",
      "file": "/data/node_modules/node-red-contrib-home-assistant-websocket/nodes/poll-state/poll-state.js"
     },
+    "ha-webhook": {
+     "name": "ha-webhook",
+     "types": [
+      "ha-webhook"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-home-assistant-websocket",
+     "file": "/data/node_modules/node-red-contrib-home-assistant-websocket/nodes/webhook/webhook.js"
+    },
     "api-call-service": {
      "name": "api-call-service",
      "types": [
@@ -954,6 +966,16 @@
      "local": true,
      "module": "node-red-contrib-home-assistant-websocket",
      "file": "/data/node_modules/node-red-contrib-home-assistant-websocket/nodes/call-service/call-service.js"
+    },
+    "ha-entity": {
+     "name": "ha-entity",
+     "types": [
+      "ha-entity"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-home-assistant-websocket",
+     "file": "/data/node_modules/node-red-contrib-home-assistant-websocket/nodes/entity/entity.js"
     },
     "ha-fire-event": {
      "name": "ha-fire-event",
@@ -1025,8 +1047,7 @@
      "module": "node-red-contrib-home-assistant-websocket",
      "file": "/data/node_modules/node-red-contrib-home-assistant-websocket/nodes/api/api.js"
     }
-   },
-   "pending_version": "0.22.2"
+   }
   },
   "node-red-contrib-machine-learning": {
    "name": "node-red-contrib-machine-learning",
