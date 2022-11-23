@@ -20,7 +20,7 @@
         "node-red-contrib-throttle": "~0.1.6",
         "node-red-contrib-time-range-switch": "~1.0.1",
         "node-red-contrib-traffic": "~0.2.1",
-        "node-red-dashboard": "~2.29.1",
+        "node-red-dashboard": "~3.2.3",
         "node-red-node-snmp": "0.0.25",
         "node-red-node-sqlite": "~0.6.0",
         "node-red-node-twitter": "~1.2.0"
